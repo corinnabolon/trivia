@@ -1,0 +1,24 @@
+/* BASIC STYLES HERE */
+:root {
+  --dark-purple: #363062;
+  --lighter-purple: #4D4C7D;
+  --orangey: #F99417;
+  --light: #F5F5F5;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.btn-orange {
+  background-color: var(--orangey);
+}
+
+.trivia-card {
+  background-color: var(--lighter-purple);
+  color: var(--light);
+  font-family: 'Merriweather', serif;
+  border-radius: 5px;
+  border: 5px solid var(--dark-purple);
+}
